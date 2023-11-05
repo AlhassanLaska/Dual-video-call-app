@@ -1,0 +1,40 @@
+body{
+    width: 800px;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+button{
+    color: blue;
+    background-color: green;
+    width: 20;
+}
+
+#video{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    width: 100%;
+    padding: 10px;
+}
+
+video{
+    width: 100%;
+    color: aqua;
+    border: 3px solid greenyellow;
+}
+
+textarea{
+    color: aqua;
+    height: 50px;
+    width: 100%;
+    background-color: green;
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        background-color: black;
+        width: 800px;
+        margin: 0 auto;
+    }
+}
